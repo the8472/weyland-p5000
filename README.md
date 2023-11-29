@@ -8,6 +8,6 @@ Status: A quick hack demonstrating wayland message proxying in userspace. Its er
 To run firefox under the wayland proxy:
 
 ```
-cargo build --release
+cargo +nightly build --release
 ./target/release/p5wl firefox
 ```
